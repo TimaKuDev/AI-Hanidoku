@@ -1,0 +1,15 @@
+First of all was made by me and my friend in project of AI where we had to choose a problem and solve it using AI.
+We choosed Hanidoku https://dkmgames.com/Hanidoku/ ( you can see how to play this game ).
+We made an app where you put an input inside "input.py" you need to make a matrix named "hanidoku" where this matrix is correct with Hanidoku form, otherwise its wont work.
+(we didnt check for correct input) i hope that the examples that we gave there (we used them ourself and all working) will be helpful to you, 
+And you will understand how to create the matrix correctly.
+We didnt find haniodku bigger than 9 until someday we found a solution using our app for hanidoku size 10. 
+So it might be the first solution ever out there so enjoy it.
+
+Step 1: go to "input.py" choose Hanidoku that you would like to run, or create your own (NOTICE THAT MAYBE I DIDNT CHANGED ALL OTHERS HANIDOKU NAMES FROM "hanidoku")
+
+Step2: run "run.py", what this will do it will let choose which way you want to solve it ther are 16 diffrent ways. after you choosed it will run the hanidoku that is in "input.py" and will try to solve it if there a solution, and will give an input soltuion or no solution and the time it took.
+advance: so after you understand how to work with my program. you want to run one hanidoku with all the diffrent wats, that why there is is "many_runs.py" it will run the hanidoku from "input.py" with all the 16 ways and write the info in text file
+
+you can make a graph using "graph_maker.py" this will read filename ( you need to change it line 34 ) and create graph by time so it will show you which way was the fasstest.
+To be honest the "many_runs" can run for days.... so its fine if u think its stuck
